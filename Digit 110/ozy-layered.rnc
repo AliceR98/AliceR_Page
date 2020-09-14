@@ -1,0 +1,9 @@
+start = twinkie
+twinkie = element Ozymandias {layer}
+layer = element layer {agent, pos?, line*}
+line = element line {n, mixed{(layer | ellipsis)?}}
+ellipsis = element ellipsis {empty}
+
+agent = attribute agent {"I" | "traveller" | "sculptor" | text}
+n = attribute n {xsd:integer}
+pos = attribute pos {"start" | "end"}
