@@ -1,0 +1,16 @@
+start = Gettysburg
+Gettysburg = element Gettysburg {prologue, body} #alr: rearranged order of elements within brackets and got rid of text 
+
+body = element body {sentence*} #alr: changed 'sentance' to 'sentence'
+
+prologue = element prologue {who, mixed {(date | where)*}} #alr: added an = after prologue, and turned elements within brackets into a mixed content
+date = element date {when?, text} #alr: got rid of the quotation marks around "when" and changed the asterisk to a question mark
+where = element where {location*, text}
+when = attribute when {xsd:date | xsd:gYearMonth | xsd:gYear} #alr: changed the value of attribute when
+location = attribute location {text}
+
+sentence = element sentence {n, event?, mixed {( who | where | person)*}} #alr: added n attribute to the list and added a mixed element list
+person = element person {who, text} #alr: added the word text
+n = attribute n {xsd:int} #alr: defined n attribute
+event = attribute event {text}
+who = attribute who {text}
