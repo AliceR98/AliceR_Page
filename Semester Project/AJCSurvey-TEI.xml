@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="Rong_10-09_AJCSurvey-ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="AJCSurvey-ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -471,19 +471,212 @@
                      <add hand="#AJC"><lb/>Under <persName>Dr. J. <surname>Brinton Smith</surname></persName>, founder, I was made pupil teacher at the age of 8, first for board &amp; tuition<gap reason="image cut off on right margin"/>
                         <lb/>Teaching &amp; studying, married &amp; widowed in this <q>world</q> of a church schoolI think the preparation for <gap reason="image cut off on right margin"/><lb/> may pass as <q>good</q> for the time in that I was admitted on examination with some praise to the Sophomore <gap reason="image cut off on right margin"/> Enrance exams, in the Anabasis, the Iliad <abbr>Caes</abbr> <abbr>Cic</abbr><!--ebb: I think these are abbreviations for Caesar and Cicero, which used to be taught a lot in a classics (ancient Greek/Roman literature) curriculum in the late 19th-century.-->, Plane &amp; Solid Geometry<gap reason="image cut off on right margin"/><lb/>Conditioned in Trig. Mechanics, Physics, Hist. of Civilization <metamark rend="short-connecting-line"/><add place="below">&amp; Science of Government</add>, the Odyssey made up <unclear><supplied>in</supplied></unclear> one yea<supplied reason="image cut off on right margin">r</supplied>
                      </add>
-                     
                   </ab>
                </div2>
-               
+               <div2 type="question" n="23">
+                  <ab>23. College and Professional Training:</ab>
+                  <table rend="boxed" rows="6" cols="3">
+                     <row role="label">
+                        <cell><hi rend="italic">Institution</hi></cell>
+                        <cell><hi rend="italic">Period (give dates)</hi></cell>
+                        <cell><hi rend="italic">Diploma or degree</hi></cell>
+                     </row>
+                     <row n="1">
+                        <cell>1. <add hand="#AJC"> St. Aug. Normal &amp; Collegiate</add></cell>
+                        <cell><add hand="#AJC">from early youth to 1881</add></cell>
+                        <cell><add hand="#AJC">None</add></cell>
+                     </row>
+                     <row n="2">
+                        <cell>2. <add hand="#AJC"> Oberlin</add></cell>
+                        <cell><add hand="#AJC">Sept. '81 -- June '84</add></cell>
+                        <cell><add hand="#AJC">A.B.</add></cell>
+                     </row>
+                     <row n="3">
+                        <cell>3. <add hand="#AJC"> Oberlin on 3 yrs. College Teaching</add></cell>
+                        <cell><add hand="#AJC">'84 --- '87</add></cell>
+                        <cell><add hand="#AJC">M.A</add></cell>
+                     </row>
+                     <row n="4">
+                        <cell>4. <add hand="#AJC">Columbia on 4 yrs graduate courses in S.S.</add></cell>
+                        <cell><add hand="#AJC">1914, 15, 16, 17</add></cell>
+                        <cell><add hand="#AJC" rend="2-L"><unclear><supplied>Guilde</supplied></unclear>Internationale Paris S.S</add></cell>
+                      
+                     </row>
+                     <row> <!-- added by AJC, not originally part of surey -->
+                        <cell><add hand="#AJC">5 Universite de Paris, La Sorbonne</add></cell>
+                        <cell><add hand="#AJC">1924 - '25. Residence &amp; thesis</add></cell>
+                        <cell><add hand="#AJC"><metamark function="verticalLine"/> PHD.</add></cell>
+                     </row>
+                  </table>
+               </div2>
+               <div2 type="question" n="24">
+                  <ab>24. How was your education supported? <add hand="#AJC">Personal earnings</add></ab>
+               </div2>
+               <div2 type="question" n="25">
+                  <ab>
+                     25. What part of your support was earned through self-help? <add hand="#AJC">All</add>
+                  </ab>
+               </div2>
+               <div2 type="question" n="26">
+                  <ab rend="2-L">
+                     26. As you regarded it then, what motives prompted you to go to college? <add hand="#AJC" rend="1-L"><unclear><supplied>indomitable</supplied></unclear>innate "working to know"</add>
+                  </ab>
+               </div2>
+               <div2 type="question" n="27">
+                  <ab>
+                     27. What was your major subject or special training in college? <add hand="#AJC">Mathematics <metamark function="verticaLine"/> I took all in the course.</add>
+                  </ab>
+               </div2>
+               <div2 type="question" n="28">
+                  <ab>
+                     28. What subjects were most liked (in order of preference)? <add hand="#AJC">Philosophy <unclear><supplied>Msral</supplied></unclear> &amp; Mental, Logic, Trig &amp; <gap reason="image cut off on right margin"/></add>
+                  </ab>
+               </div2>
+               <div2 type="question" n="29">
+                  <ab>
+                     29. What subjects were most disliked (in order)? <add hand="#AJC">I do not recall any that I did not thoroly enjoy.</add>
+                  </ab>
+               </div2>
+               <div2 type="question" n="30">
+                  <ab>
+                     30. What subject or subjects proved most useful to you after graduation? <add hand="#AJC">I have had to use them all I think at son<gap reason="image cut off on right margin"/></add>
+                  </ab>
+               </div2>
+               <div2 type="question" n="31">
+                  <ab rend="2-L">
+                     31. What faculty members proed most stimulating to you? (Give names and position of faculty)<add hand="#AJC" rend="2-L">President Fairchild, Prof. Churchill, Tutor (Now Ex-Pres.) King of Berlin, Paul-<unclear><supplied>Prival</supplied></unclear> Deschauel, C Cestre Saquac</add>
+                  </ab>
+               </div2>
+               <div2 type="question" n="32">
+                  <ab rend="2-L">
+                     32. What school influences were most important in giving direction to your life? <add hand="#AJC" rend="2-L">"Thursday Lectures", Mrs. Johnsto<gap reason="image cut off on right margin"/> <unclear><supplied>Jen "Lu K"</supplied></unclear> for Women, &amp; weekly young people's meetings, with of course the Oberlin "a<gap reason="image cut off on right margin"/> the music, the sermons Brothers</add>
+                  </ab>
+               </div2>
+               <div2 type="question" n="33">
+                  <ab>
+                     33. To what honor societies did you belong in college? <add hand="#AJC">Oberlin had none in my day.</add>
+                  </ab>
+               </div2>
+               <div2 type="question" n="34">
+                  <ab>
+                     34. <lb/>To what fraternity or sorority? <add hand="#AJC">L.L.S.</add>
+                     <lb/>Please check extra-curricular activities engaged in <add hand="#AJC" rend="2-L">I taught advanced Algebra in Oberlin academy
+                     <lb/>The Students were white.</add>
+                  </ab>
+                  <table rend="boxed" rows="11" cols="3">
+                     <row role="label">
+                        <cell/>
+                        <cell>Regularly</cell>
+                        <cell>Occasionally</cell>
+                     </row>
+                     <row n="1">
+                        <cell>35. A. On campus</cell>
+                        <cell/>
+                        <cell/>
+                     </row>
+                     <row n="2">
+                        <cell>Athletics</cell>
+                        <cell/>
+                        <cell/>
+                     </row>
+                     <row n="3">
+                        <cell>Oratory and debating</cell>
+                        <cell/>
+                        <cell><metamark function="checkmark"/></cell>
+                     </row>
+                     <row n="4">
+                        <cell>Fraternity or sorority</cell>
+                        <cell/>
+                        <cell/>
+                     </row>
+                     <row n="5">
+                        <cell>Literary society</cell>
+                        <cell><metamark function="checkmark"/></cell>
+                        <cell/>
+                     </row>
+                     <row n="6">
+                        <cell>Dramatics</cell>
+                        <cell/>
+                        <cell/>
+                     </row>
+                     <row n="7">
+                        <cell>Music</cell>
+                        <cell/>
+                        <cell/>
+                     </row>
+                     <row n="8">
+                        <cell>Religion</cell>
+                        <cell/>
+                        <cell/>
+                     </row>
+                     <row n="9">
+                        <cell>Publications</cell>
+                        <cell/>
+                        <cell/>
+                     </row>
+                     <row n="10">
+                        <cell>Student government</cell>
+                        <cell/>
+                        <cell/>
+                     </row>
+                  </table>
+                  <table rend="boxed" rows="11" cols="3">
+                     <row role="label">
+                        <cell/>
+                        <cell>Regularly</cell>
+                        <cell>Occasionally</cell>
+                     </row>
+                     <row n="1">
+                        <cell>35. On campus</cell>
+                        <cell/>
+                        <cell/>
+                     </row>
+                     <row n="2">
+                        <cell>Social club</cell>
+                        <cell/>
+                        <cell/>
+                     </row>
+                     <row n="3">
+                        <cell>Other forms</cell>
+                        <cell/>
+                        <cell/>
+                     </row>
+                     <row n="4">
+                        <cell>B. Off campus</cell>
+                        <cell/>
+                        <cell/>
+                     </row>
+                     <row n="5">
+                        <cell>Church work</cell>
+                        <cell/>
+                        <cell/>
+                     </row>
+                     <row n="6">
+                        <cell>Social club</cell>
+                        <cell/>
+                        <cell/>
+                     </row>
+                     <row n="7">
+                        <cell>Civic or social service</cell>
+                        <cell/>
+                        <cell/>
+                     </row>
+                     <row n="8">
+                        <cell>Other forms</cell>
+                        <cell/>
+                        <cell/>
+                     </row>
+                  </table>
+               </div2>
 <!--more survey questions / answers -->
-               
-               
-         
-            
+ 
             <pb n="3"/>
          <div2 type="question" n="36">
             <ab rend="1-L">36. How well did you do in college? <add hand="#AJC">Hardly a fair question for personal answer. I did my best &amp; <metamark rend="short-connecting-line"/><lb/><note resp="#ebb">Here AJC’s text flows upside-down along the top of the form</note> 4 Professors including <persName>Prest. Fairchild</persName> gave me letters rating me first in the class.</add>
             </ab>
+         </div2>
+         <div2 type="question" n="37">
+            <ab rend="1-L"></ab>
          </div2>
             <pb n="4"/>
             <pb n="5"/>
